@@ -62,7 +62,7 @@ class LoginViewController: UIViewController,UITextFieldDelegate {
 
         
         
-        let request = NSMutableURLRequest(URL: NSURL(string: "http://my.vigasdeep.com:2403/users/login")!)
+        let request = NSMutableURLRequest(URL: NSURL(string: "http://xxxxxxxxxxxx.com:2403/users/login")!)
         let session = NSURLSession.sharedSession()
         request.HTTPMethod = "POST"
         
