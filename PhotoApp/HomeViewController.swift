@@ -34,7 +34,7 @@ class HomeViewController: UIViewController {
             let token = prefs.valueForKey("SESSIONID") as? String
             
             
-            let url = NSURL(string: "http://my.vigasdeep.com:2403/users/me")
+            let url = NSURL(string: "http://xxxxxxxxx.com:2403/users/me")
             
             let request = NSMutableURLRequest(URL: url!)
             request.HTTPMethod = "GET"
